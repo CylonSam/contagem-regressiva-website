@@ -38,7 +38,7 @@ const countdown = () => {
   return `${diasConvertido} dias, ${horasConvertido} horas, ${minutosConvertido} minutos e ${segundos} segundos`;
 };
 
-const elementoTeste = document.querySelector(".teste");
+const elementoTeste = document.querySelector(".contagem-text");
 
 const mostraCountdown = () => {
   setInterval(() => {
